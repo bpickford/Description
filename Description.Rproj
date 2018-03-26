@@ -1,13 +1,12 @@
-Version: 1.0
-
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
+Package: bpick
+Type: Package
+Title: The Myth of Disproportionate Birth Rates
+Version: 0.1.0
+Author: Brea Pickford <bpickford@mail.usf.edu> 
+Maintainer: Brea Pickford <bpickford@mail.usf.edu.
+Description: To dispel or affirm stereotypes of lower income areas having a higher birth rate.
+License: CC0
+Depends: R (>= 3.1.2)
+Imports: package:: ggplot2
 Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+LazyData: true
